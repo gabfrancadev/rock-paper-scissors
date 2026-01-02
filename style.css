@@ -1,0 +1,73 @@
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f0f2f5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+.game-container {
+  background: white;
+  padding: 2rem;
+  border-radius: 15px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  width: 400px;
+}
+.button-group {
+  display: flex;
+  justify-content: space-around;
+  margin: 2rem 0;
+}
+.game-btn {
+  padding: 15px;
+  font-size: 1rem;
+  cursor: pointer;
+  border: 2px solid #ddd;
+  border-radius: 10px;
+  background: white;
+  transition: all 0.2s ease;
+}
+.game-btn:hover {
+  border-color: #007bff;
+  background-color: #e7f1ff;
+  transform: translateY(-3px);
+}
+.scoreboard {
+  display: flex;
+  justify-content: space-between;
+  background: #333;
+  color: white;
+  padding: 1rem;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+}
+.score-card span {
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  opacity: 0.8;
+}
+.score-number {
+  font-size: 2rem;
+  font-weight: bold;
+}
+.status-board {
+  min-height: 100px;
+}
+#outcome {
+  color: #666;
+  font-style: italic;
+}
+#winner {
+  margin-top: 10px;
+  font-size: 1.5rem;
+}
+#reset-btn {
+  background-color: #28a745;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
