@@ -43,11 +43,11 @@ function playRound(humanChoice) {
 
 function checkWinner() {
   if (humanScore === 5) {
-    winnerDiv.textContent = "Congratulations! You won the game! 🎉";
+    winnerDiv.textContent = "Congratulations! You won the game!";
     winnerDiv.style.color = "green";
     endGame();
   } else if (computerScore === 5) {
-    winnerDiv.textContent = "GAME OVER! Computer wins. 💻";
+    winnerDiv.textContent = "GAME OVER! Computer wins.";
     winnerDiv.style.color = "red";
     endGame();
   }
